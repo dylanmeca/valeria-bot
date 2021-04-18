@@ -52,12 +52,16 @@ class pairs:
                  ["valeria: fui creado el 18 de abril del 2021",]
                 ],
                 [
-                 r"vale (.*)|ok (.*)|si|si (.*)",
+                 r"vale (.*)|ok (.*)|si|si (.*)|vale|ok",
                  ["valeria: ok", "valeria: vale :3",]
                 ],
                 [
                  r"bien|estoy bien (.*)|estoy bien|bien (.*)",
                  ["valeria: ok :3, que bien", "valeria: que bien que estes bien",]
+                ],
+                [
+                 r"que es linux (.*)|que es linux ?",
+                 ["valeria: linux es un kernel, para crear sistemas operativos", "valeria: linux es un nucleo y con eso puedes crear una distribucion linux",] 
                 ],
                 [
                  r"chao|bye|adios",
