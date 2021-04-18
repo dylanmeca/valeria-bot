@@ -68,7 +68,7 @@ class pairs:
                 ],
                 [
                  r"chao|bye|adios",
-                 ["valeria: Chao","valeria: Fue un gusto hablar contigo"]
+                 ["valeria: Bye","valeria: Fue un gusto hablar contigo", "valeria: chao", "valeria: adios, te extrañare",]
               ],
               ]
 
