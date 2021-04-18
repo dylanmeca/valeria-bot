@@ -102,8 +102,8 @@ pairs = [
 ]
 
 def start():
-    chat = Chatbot(pairs, reflections)
-    chat.converse()
+    chatbot = Chatbot(pairs, reflections)
+    chatbot.converse()
 
 if __name__ == "__main__":
     start()
