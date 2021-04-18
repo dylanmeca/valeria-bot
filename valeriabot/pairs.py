@@ -72,11 +72,11 @@ class pairs:
                 ],
                 [
                  r"quieres ser mi amiga (.*)|quieres ser mi amiga",
-                 ["valeria: si ya somos amigos :3", "valeria: pero si somo amigos :3",]
+                 ["valeria: si ya somos amigos :3", "valeria: pero si somos amigos :3",]
                 ],
                 [
                  r"asi verdad (.*)|asi verdad",
-                 ["valeria: si :3", "valeria: si es miy cierto :3",]
+                 ["valeria: si :3", "valeria: si es muy cierto :3",]
                 ],
                 [
                  r"chao|bye|adios",
