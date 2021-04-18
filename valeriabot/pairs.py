@@ -19,7 +19,7 @@ class pairs:
       def pairs(self):
               pairs = [
                 [
-                 r"mi nombre es (.*)",
+                 r"mi nombre es (.*)|me llamo (.*)",
                  ["valeria: Hola %1, como estas ?",]
                 ],
                 [
