@@ -11,7 +11,7 @@ class pairs:
                  "como estas?": "bien",
                  "estoy bien": "que bien",
                  "hey": "que pasa ?",
-                 "cual es tu nombre? : "me llamo valeria",
+                 "cual es tu nombre?" : "me llamo valeria",
     
               }
 
