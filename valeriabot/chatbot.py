@@ -35,7 +35,7 @@ class Chatbot(object):
             match = pattern.match(str)
 
             if match:
-                resp = random.choice(response)  
+                resp = "valeria: " + random.choice(response)  
                 resp = self._wildcards(resp, match)  
 
                 if resp[-2:] == "?.":
