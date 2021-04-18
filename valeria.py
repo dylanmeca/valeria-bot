@@ -44,7 +44,7 @@ class Chatbot(object):
                     resp = resp[:-2] + "?"
                 return resp
 
-    def converse(self, quit="chao"):
+    def converse(self, quit="bye"):
         user_input = ""
         while user_input != quit:
             user_input = quit
