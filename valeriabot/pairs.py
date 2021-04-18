@@ -45,7 +45,6 @@ class pairs:
                 [
                  r"cual es tu religion?",
                  ["valeria: soy catolica",]
-        
                 ],
                 [
                  r"(.*) crearon ?|(.*) creado?",
