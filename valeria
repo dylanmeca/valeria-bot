@@ -10,7 +10,7 @@ pairs = pairs.pairs ()
 
 
 def start():
-    chatbot = Chatbot(pairs1, reflections)
+    chatbot = Chatbot(pairs, reflections)
     chatbot.converse()
 
 if __name__ == "__main__":
