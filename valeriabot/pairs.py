@@ -1,3 +1,5 @@
+import re
+
 class pairs:
 
       def __init__(self):
