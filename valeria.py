@@ -44,7 +44,7 @@ class Chatbot(object):
                     resp = resp[:-2] + "?"
                 return resp
 
-    def converse(self, quit="quit"):
+    def converse(self, quit="chao"):
         user_input = ""
         while user_input != quit:
             user_input = quit
@@ -96,7 +96,7 @@ pairs = [
         ["valeria: fui creado el 18 de abril del 2021",]
     ],
     [
-        r"bye",
+        r"chao|bye|adios",
         ["valeria: Chao","valeria: Fue bueno hablar contigo"]
 ],
 ]
