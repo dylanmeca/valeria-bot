@@ -35,8 +35,12 @@ class pairs:
                  ["valeria: vale :3, te perdono", "valeria: te perdono :)",]
                 ],
                 [
-                 r"hola|hey|buenas (.*)|buenos (.*)",
-                 ["valeria: Hola", "valeria: hola, como estas ??", "valeria: buenas %1"]
+                 r"hola|hey",
+                 ["valeria: Hola", "valeria: hola, como estas ??",]
+                ],
+                [
+                 r"buenas (.*)|buenos (.*)",
+                 ["valeria: buenas %1, como estas ?", "valeria: buenos %1, hoy sera un gran dia",]
                 ],
                 [
                  r"cual es tu religion?",
@@ -48,7 +52,7 @@ class pairs:
                  ["valeria: fui creado el 18 de abril del 2021",]
                 ],
                 [
-                 r"vale (.*)|ok (.*)",
+                 r"vale (.*)|ok (.*)|si|si (.*)",
                  ["valeria: ok", "valeria: vale :3",]
                 ],
                 [
