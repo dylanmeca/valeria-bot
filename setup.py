@@ -17,8 +17,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/dylan14567/valeria/issues",
     },
     install_requires=[
-        "colorama",
-        "requests",
         "wheel",
     ],
     classifiers=[
