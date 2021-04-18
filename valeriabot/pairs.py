@@ -13,6 +13,7 @@ class pairs:
                  "hey": "que pasa ?",
     
               }
+
               return reflections
 
       def pairs(self):
@@ -58,4 +59,5 @@ class pairs:
                  ["valeria: Chao","valeria: Fue un gusto hablar contigo"]
               ],
               ]
+
               return pairs
