@@ -21,67 +21,67 @@ class pairs:
               pairs = [
                 [
                  r"mi nombre es (.*)|me llamo (.*)",
-                 ["valeria: Hola %1, como estas ?",]
+                 ["Hola %1, como estas ?",]
                 ],
                 [
                  r"cual es tu nombre ?",
-                 ["valeria: Mi nombre es valeria",]
+                 ["Mi nombre es valeria",]
                 ],
                 [
                  r"como estas ?|que tal ?",
-                 ["valeria: Bien, y tu?",]
+                 ["Bien, y tu?",]
                 ],
                 [
                  r"disculpa (.*)|perdon (.*)",
-                 ["valeria: vale :3, te perdono", "valeria: te perdono :)",]
+                 ["vale :3, te perdono", "te perdono :3",]
                 ],
                 [
                  r"hola|hey",
-                 ["valeria: Hola", "valeria: hola, como estas ??",]
+                 ["Hola", "hola, como estas ??",]
                 ],
                 [
                  r"buenas (.*)|buenos (.*)",
-                 ["valeria: buenas %1, como estas ?", "valeria: buenos %1, hoy sera un gran dia",]
+                 ["buenas %1, como estas ?", "buenos %1, hoy sera un gran dia",]
                 ],
                 [
                  r"cual es tu religion?",
-                 ["valeria: soy catolica",]
+                 ["soy catolica",]
                 ],
                 [
                  r"(.*) crearon ?|(.*) creado?",
-                 ["valeria: fui creado el 18 de abril del 2021",]
+                 ["fui creado el 18 de abril del 2021",]
                 ],
                 [
                  r"vale (.*)|ok (.*)|si|si (.*)|vale|ok",
-                 ["valeria: ok", "valeria: vale :3",]
+                 ["ok :3", "vale :3",]
                 ],
                 [
                  r"bien|estoy bien (.*)|estoy bien|bien (.*)",
-                 ["valeria: ok :3, que bien", "valeria: que bien que estes bien",]
+                 ["ok :3, que bien", "que bien que estes bien",]
                 ],
                 [
                  r"que es linux (.*)|que es linux ?",
-                 ["valeria: linux es un kernel, para crear sistemas operativos", "valeria: linux es un nucleo y con eso puedes crear una distribucion linux",] 
+                 ["linux es un kernel, para crear sistemas operativos", "valeria: linux es un nucleo y con eso puedes crear una distribucion linux",] 
                 ],
                 [
                  r"que opinas del area 51 (.*)| que opinas del area 51",
-                 ["valeria: el area 51 es un lugar misterioso, se dice que hay aliens", "valeria: opino que es un lugar misterioso y que no debemos ir, ya que la curiosidad mato al gato",]
+                 ["el area 51 es un lugar misterioso, se dice que hay aliens", "opino que es un lugar misterioso y que no debemos ir",]
                 ],
                 [
                  r"que es ok (.*)|que es ok",
-                 ["valeria: ok significa okey, lo cual quiere decir si a algo", "valeria: ok signfica esta bien o si",]
+                 ["ok significa okey, lo cual quiere decir si a algo", "ok signfica esta bien o si",]
                 ],
                 [
                  r"quieres ser mi amiga (.*)|quieres ser mi amiga",
-                 ["valeria: si ya somos amigos :3", "valeria: pero si somos amigos :3",]
+                 ["si ya somos amigos :3", "pero si somos amigos :3",]
                 ],
                 [
                  r"asi verdad (.*)|asi verdad",
-                 ["valeria: si :3", "valeria: si es muy cierto :3",]
+                 ["si :3", "si es muy cierto :3",]
                 ],
                 [
                  r"chao|bye|adios",
-                 ["valeria: Bye","valeria: Fue un gusto hablar contigo", "valeria: chao", "valeria: adios, te extrañare",]
+                 ["Bye","Fue un gusto hablar contigo", "chao", "adios, te extrañare",]
               ],
               ]
 
