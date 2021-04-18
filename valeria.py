@@ -72,28 +72,32 @@ pairs = [
     ],
      [
         r"cual es tu nombre ?",
-        ["valeria: Mi nombre es valeria ?",]
+        ["valeria: Mi nombre es valeria",]
     ],
     [
-        r"como estas ?",
+        r"como estas ?|que tal ?",
         ["valeria: Bien, y tu?",]
     ],
     [
         r"disculpa (.*)|perdon (.*)",
-        ["valeria: No pasa nada", "valeria: te perdono :)",]
+        ["valeria: vale :3, te perdono", "valeria: te perdono :)",]
     ],
     [
-        r"hola|hey|buenas",
-        ["valeria: Hola", "valeria: hola, como estas ??",]
+        r"hola|hey|buenas (.*)",
+        ["valeria: Hola", "valeria: hola, como estas ??", "valeria: buenas %1"]
     ],
     [
-        r"que (.*) quieres ?",
-        ["valeria: Nada gracias",]
+        r"cual es tu religion?",
+        ["valeria: soy catolica",]
         
     ],
     [
         r"(.*) crearon ?|(.*) creado?",
         ["valeria: fui creado el 18 de abril del 2021",]
+    ],
+    [
+        r"vale (.*)|ok (.*)",
+        ["valeria: ok", "valeria: vale :3",]
     ],
     [
         r"chao|bye|adios",
