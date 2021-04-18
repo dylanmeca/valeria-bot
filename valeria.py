@@ -79,7 +79,7 @@ pairs = [
         ["valeria: Bien, y tu?",]
     ],
     [
-        r"disculpa (.*)",
+        r"disculpa (.*)|perdon (.*)",
         ["valeria: No pasa nada", "valeria: te perdono :)",]
     ],
     [
@@ -92,8 +92,8 @@ pairs = [
         
     ],
     [
-        r"(.*) creado ?",
-        ["valeria: Fui creado hoy",]
+        r"(.*) crearon ?|(.*) creado?",
+        ["valeria: fui creado el 18 de abril del 2021",]
     ],
     [
         r"bye",
