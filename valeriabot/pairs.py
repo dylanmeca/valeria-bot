@@ -35,7 +35,7 @@ class pairs:
                  ["valeria: vale :3, te perdono", "valeria: te perdono :)",]
                 ],
                 [
-                 r"hola|hey|buenas (.*)",
+                 r"hola|hey|buenas (.*)|buenos (.*)",
                  ["valeria: Hola", "valeria: hola, como estas ??", "valeria: buenas %1"]
                 ],
                 [
@@ -52,7 +52,7 @@ class pairs:
                  ["valeria: ok", "valeria: vale :3",]
                 ],
                 [
-                 r"bien (.*)|estoy bien (.*)",
+                 r"bien|estoy bien (.*)|estoy bien|bien (.*)",
                  ["valeria: ok :3, que bien", "valeria: que bien que estes bien",]
                 ],
                 [
