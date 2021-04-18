@@ -52,8 +52,11 @@ class pairs:
                  ["valeria: ok", "valeria: vale :3",]
                 ],
                 [
+                 r"bien (.*)|estoy bien (.*)",
+                 ["valeria: ok :3, que bien", "valeria: que bien que este bien",]
+                [
                  r"chao|bye|adios",
-                 ["valeria: Chao","valeria: Fue bueno hablar contigo"]
+                 ["valeria: Chao","valeria: Fue un gusto hablar contigo"]
               ],
               ]
    
