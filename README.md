@@ -27,4 +27,4 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 ## Licencia
 
-La licencia de este proyecto es [MIT](https://github.com/dylan14567/valeria/LICENSE)
+La licencia de este proyecto es [MIT](https://github.com/dylan14567/valeria/blob/main/LICENSE)
