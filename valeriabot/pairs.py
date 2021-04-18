@@ -54,6 +54,7 @@ class pairs:
                 [
                  r"bien (.*)|estoy bien (.*)",
                  ["valeria: ok :3, que bien", "valeria: que bien que estes bien",]
+                ],
                 [
                  r"chao|bye|adios",
                  ["valeria: Chao","valeria: Fue un gusto hablar contigo"]
