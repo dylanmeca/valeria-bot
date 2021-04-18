@@ -67,6 +67,18 @@ class pairs:
                  ["valeria: el area 51 es un lugar misterioso, se dice que hay aliens", "valeria: opino que es un lugar misterioso y que no debemos ir, ya que la curiosidad mato al gato",]
                 ],
                 [
+                 r"que es ok (.*)|que es ok",
+                 ["valeria: ok significa okey, lo cual quiere decir si a algo", "valeria: ok signfica esta bien o si",]
+                ],
+                [
+                 r"quieres ser mi amiga (.*)|quieres ser mi amiga",
+                 ["valeria: si ya somos amigos :3", "valeria: pero si somo amigos :3",]
+                ],
+                [
+                 r"asi verdad (.*)|asi verdad",
+                 ["valeria: si :3", "valeria: si es miy cierto :3",]
+                ],
+                [
                  r"chao|bye|adios",
                  ["valeria: Bye","valeria: Fue un gusto hablar contigo", "valeria: chao", "valeria: adios, te extrañare",]
               ],
