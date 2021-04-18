@@ -64,6 +64,10 @@ class pairs:
                  ["valeria: linux es un kernel, para crear sistemas operativos", "valeria: linux es un nucleo y con eso puedes crear una distribucion linux",] 
                 ],
                 [
+                 r"que opinas del area 51 (.*)| (.*) opinas del area 51",
+                 ["valeria: el area 51 es un lugar misterioso, se dice que hay aliens", "valeria: opino que es un lugar misterioso y que no debemos ir, ya que la curiosidad mato al gato",]
+                ],
+                [
                  r"chao|bye|adios",
                  ["valeria: Chao","valeria: Fue un gusto hablar contigo"]
               ],
