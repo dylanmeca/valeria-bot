@@ -53,7 +53,7 @@ class pairs:
                 ],
                 [
                  r"vale (.*)|ok (.*)|si|si (.*)|vale|ok",
-                 ["ok :3", "vale :3",]
+                 ["ok :3", "vale :3", "si", "bien :3",]
                 ],
                 [
                  r"bien|estoy bien (.*)|estoy bien|bien (.*)",
