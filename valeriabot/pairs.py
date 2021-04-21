@@ -21,7 +21,7 @@ class pairs:
               pairs = [
                 [
                  r"mi nombre es (.*)|me llamo (.*)",
-                 ["Hola %1, como estas ?",]
+                 ["Hola %1, como estas ?", "hola %1, un gusto en conocerte",]
                 ],
                 [
                  r"cual es tu nombre (.*)|como te llamas (.*)| cual es tu nombre|como te llamas",
