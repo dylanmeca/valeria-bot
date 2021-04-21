@@ -81,7 +81,7 @@ class pairs:
                 ],
                 [
                  r"quien eres (.*)|quien eres",
-                 ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar",]
+                 ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
                 ],
                 [
                  r"chao|bye|adios",
