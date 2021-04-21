@@ -24,7 +24,7 @@ class pairs:
                  ["Hola %1, como estas ?",]
                 ],
                 [
-                 r"cual es tu nombre ?",
+                 r"cual es tu nombre (.*)|como te llamas (.*)| cual es tu nombre|como te llamas",
                  ["Mi nombre es valeria",]
                 ],
                 [
@@ -78,6 +78,10 @@ class pairs:
                 [
                  r"asi verdad (.*)|asi verdad",
                  ["si :3", "si es muy cierto :3",]
+                ],
+                [
+                 r"quien eres (.*)|quien eres",
+                 ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar",]
                 ],
                 [
                  r"chao|bye|adios",
