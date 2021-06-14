@@ -88,6 +88,14 @@ class pairs:
                  ["Mis años son distintos a los tuyos", "Mis años son binarios :>",]
                 ],
                 [
+                 r"(.*) años binarios|(.*) año binario|como que años binarios (.*)"
+                 ["No se como explicarlo :>", "No se como explicarlo :v",]
+                ],
+                [
+                 r"x(.*)|X(.*)|:(.*)"
+                 ["xdd","xd","Xd",":v",":>","UwU","7u7",":3",]
+                ],
+                [
                  r"quien eres (.*)|quien eres",
                  ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
                 ],
