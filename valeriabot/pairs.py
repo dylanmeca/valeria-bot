@@ -80,7 +80,7 @@ class pairs:
                  ["si :3", "si es muy cierto :3",]
                 ],
                 [
-                 r"cuantos años tienes"|"cuantos años (.*)",
+                 r"cuantos años tienes|cuantos años (.*)",
                  ["no tengo años :>", "tengo muchos años binarios xdd", "tengo los mismos años que tu",]
                 ],
                 [
