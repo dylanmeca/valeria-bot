@@ -104,7 +104,7 @@ class pairs:
                  ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
                 ],
                 [
-                 r"gracias (.*)"|"(.*) gracias",
+                 r"gracias (.*)|(.*) gracias",
                  ["Me alegro de que te ayude", "de nada :3",]
                 ],
                 [
