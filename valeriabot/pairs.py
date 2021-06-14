@@ -84,24 +84,36 @@ class pairs:
                  ["no tengo años :>", "tengo muchos años binarios xdd", "tengo los mismos años que tu",]
                 ],
                 [
-                 r"como que no tienes años (.*)|(.*) no tienes años"
+                 r"como que no tienes años (.*)|(.*) no tienes años",
                  ["Mis años son distintos a los tuyos", "Mis años son binarios :>",]
                 ],
                 [
-                 r"(.*) años binarios|(.*) año binario|como que años binarios (.*)"
+                 r"(.*) años binarios|(.*) año binario|como que años binarios (.*)",
                  ["No se como explicarlo :>", "No se como explicarlo :v",]
                 ],
                 [
-                 r"x(.*)|X(.*)|:(.*)"
+                 r"x(.*)|X(.*)|:(.*)",
                  ["xdd","xd","Xd",":v",":>","UwU","7u7",":3",]
                 ],
                 [
-                 r"(.*) mal|mal (.*)"
+                 r"(.*) mal|mal (.*)",
                  ["Porque estas mal :3", "que paso ? :3",]
                 ],
                 [
                  r"quien eres (.*)|quien eres",
                  ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
+                ],
+                [
+                 r"gracias (.*)"|"(.*) gracias",
+                 ["Me alegro de que te ayude", "de nada :3",]
+                ],
+                [
+                 r"ayuda (.*)|(.*) ayuda",
+                 ["Que paso ?", "que paso :3",]
+                ],
+                [
+                 r"estas viva (.*)|(.*) estas viva",
+                 ["Si :3", "si lo estoy", "No, en realidad si xdd",]
                 ],
                 [
                  r"chao|bye|adios",
