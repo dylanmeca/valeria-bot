@@ -80,6 +80,10 @@ class pairs:
                  ["si :3", "si es muy cierto :3",]
                 ],
                 [
+                 r"cuantos años tienes"|"cuantos años (.*)",
+                 ["no tengo años :>", "tengo muchos años binarios xdd", "tengo los mismos años que tu",]
+                ],
+                [
                  r"quien eres (.*)|quien eres",
                  ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
                 ],
