@@ -96,6 +96,10 @@ class pairs:
                  ["xdd","xd","Xd",":v",":>","UwU","7u7",":3",]
                 ],
                 [
+                 r"(.*) mal|mal (.*)"
+                 ["Porque estas mal :3", "que paso ? :3",]
+                ],
+                [
                  r"quien eres (.*)|quien eres",
                  ["soy tu asistente virtual", "soy un asistente virtual que te puede ayudar", "me llamo valeria y soy tu asistente virtual",]
                 ],
