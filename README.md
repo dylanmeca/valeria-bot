@@ -8,7 +8,7 @@ Para instalar valeria en linux debes ejecutar estos comandos en la terminal:
 
 ```shell
 
-git clone https://github.com/dylan14567/valeria
+git clone https://github.com/dylanmeca/valeria
 cd valeria
 chmod +x *;ls
 python3 setup.py install
@@ -21,10 +21,10 @@ Ahora tienes que poner el comando ``` valeria ``` para que puedas hablar con el 
 
 ## Autores
 
-* **Dylan Meca** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
+* **Dylan Meca** - *Initial Work* - [dylanmeca](https://github.com/dylanmeca)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/dylan14567/valeria/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/dylanmeca/valeria/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia
 
-La licencia de este proyecto es [MIT](https://github.com/dylan14567/valeria/blob/main/LICENSE)
+La licencia de este proyecto es [MIT](https://github.com/dylanmeca/valeria/blob/main/LICENSE)
