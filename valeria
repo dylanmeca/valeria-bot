@@ -1,17 +1,28 @@
-#!/bin/python3
-import re
-import random
-from valeriabot.chatbot import Chatbot
-from valeriabot.pairs import *
+#!/usr/bin/python3
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
-pairs = pairs ()
-reflections = pairs.reflections ()
-pairs = pairs.pairs ()
+bot = ChatBot(
+    'Valeria',
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    logic_adapters=[
+        'chatterbot.logic.MathematicalEvaluation',
+        'chatterbot.logic.BestMatch'
+    ],
+    database_uri='sqlite:///database.db'
+)
 
+trainer = ChatterBotCorpusTrainer(bot)
+trainer.train('chatterbot.corpus.spanish')
+trainer.train('chatterbot.corpus.english')
+trainer.train('./respuestas.yml')
 
-def start():
-    chatbot = Chatbot(pairs, reflections)
-    chatbot.converse()
+user_input = None
+while user_input != 'bye':
+    try:
+        user_input = input("tu: ")
+        bot_response = bot.get_response(user_input)
+        print(f"pipon: {bot_response}")
 
-if __name__ == "__main__":
-    start()
+    except (KeyboardInterrupt, EOFError, SystemExit):
+        break
