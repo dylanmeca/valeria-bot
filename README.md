@@ -8,16 +8,16 @@ Para instalar valeria en linux debes ejecutar estos comandos en la terminal:
 
 ```shell
 
-git clone https://github.com/dylanmeca/valeria
+git clone https://github.com/dylanmeca/valeria-bot
 cd valeria
 chmod +x *;ls
-python3 setup.py install
+pip3 install -r requirements.txt
 
 ```
 
 Una vez hecho eso se habra instalado.
 
-Ahora tienes que poner el comando ``` valeria ``` para que puedas hablar con el chatbot.
+Ahora tienes que ejecutar el comando ``` python3 valeria ``` para que puedas hablar con el chatbot.
 
 ## Autores
 
