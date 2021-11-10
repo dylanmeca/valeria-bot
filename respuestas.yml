@@ -1,0 +1,24 @@
+categories:
+- conversations
+conversations:
+- - hola
+  - hola, como estas ?
+  - hola
+  - hola, como te encuentras ?
+- - como estas ?
+  - estoy bien
+  - estoy muy bien y tu como estas ?
+  - estoy bien y tu como te encuentras ?
+  - estoy muy feliz
+  - estoy muy bien
+- - me encuentro bien
+  - que bueno
+  - que bueno que te encuentres bien
+  - que bueno, me alegro que estes muy bien
+  - okey, que bueno que estes bien
+- - bye
+  - bye, fue un gusto hablar contigo
+  - bye
+  - adios, fue un gusto hablar contigo
+  - bye, nos vemos pronto
+  - bye, nos vemos muy pronto
