@@ -8,8 +8,8 @@ Para instalar valeria en linux debes ejecutar estos comandos en la terminal:
 
 ```shell
 
-git clone https://github.com/dylanmeca/valeria-bot
-cd valeria
+git clone https://github.com/dylanmeca/valeria-bot.git
+cd valeria-bot
 chmod +x *;ls
 pip3 install -r requirements.txt
 
